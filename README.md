@@ -1,18 +1,18 @@
-# Alerts CMS
+Alerts CMS
+==========
 
-Accede al CMS de alertas desde el menú lateral **Alerts**.
+Acesse o CMS de alertas no menu lateral **Alerts**.
 
 ![](<.gitbook/assets/Menu\_alertas (1).png>)
 
-{% hint style="info" %}
-Si no tienes acceso consulta con el OBPM de TCX, para que pueda gestionarlo.
-{% endhint %}
+{% hint style="info" %} Se você não tiver acesso, consulte o TCX OBPM, para que possam administrá-lo. {% endhint %}
 
-## Antes de empezar...
+Antes de começar...
+-------------------
 
-#### ¿Qué es una alerta?
+#### O que é um alerta?
 
-Una alerta es un mensaje que se le muestra al usuario en alguna de las páginas de la app.&#x20;
+Um alerta é uma mensagem que é exibida ao usuário em uma das páginas do aplicativo. 
 
-Las alertas pueden configurarse para tener que ser leídas y hacer algo con ellas (no "cerrables") o pueden configurarse para que el usuario pueda decidir cerrarlas y por tanto omitirlas o ejecutar acciones más adelante ("cerrables").&#x20;
+Os alertas podem ser configurados para serem lidos e fazer algo com eles (não "fechados") ou podem ser configurados para que o usuário possa decidir fechá-los e, portanto, ignorá-los ou realizar ações posteriores ("fechados").
 

@@ -1,64 +1,66 @@
-# Contenido
+Conteúdo
+========
 
-Usa este paso para configurar el contenido de la alerta.
+Use este passo para configurar o conteúdo do alerta.
 
-![](../.gitbook/assets/alerts\_step2.png)
+![](../.gitbook/assets/alerts_step2.png)
 
 ### Content
 
-Rellena los campos necesarios:
+Preencha os campos necessários:
 
-**Type of alert**. Selecciona de qué tipo es la alerta.
+**Type of alert**. Selecione o tipo de alerta.
 
-* **Informative**. Usa este tipo de alerta para proporcionar información al usuario.&#x20;
-* **Warning**. Usa este tipo de alerta para advertir al usuario y llamar su atención, por ejemplo, sobre acciones que requieran de una acción por su parte.&#x20;
-* **Promotion**. Usa este tipo de alerta para mostrar promociones al usuario.
-* **Error**. Usa este tipo de alerta para mostrar algún tipo de error al usuario.&#x20;
+* **Informative**. Use este tipo de alerta para fornecer informações ao usuário. 
+* **Warning**. Use este tipo de alerta para alertar o usuário e chamar sua atenção, por exemplo, para ações exigem ação de sua parte. 
+* **Promotion**. Use este tipo de alerta para exibir promoções ao usuário.
+* **Error**. Use este tipo de alerta para exibir algum tipo de erro ao usuário. 
 
 {% hint style="success" %}
-Los iconos que se muestran con cada tipo de alerta no son configurables. Puedes usar la previsualización de la parte derecha para ver, de forma aproximada, cómo se mostrará la alerta al usuario.
+Os ícones exibidos com cada tipo de alerta não são configuráveis. Você pode utilizar a pré-visualização da área direita para ver aproximadamente como o alerta será exibido ao usuário.
 {% endhint %}
 
-**Dismiss**. Usa las opciones para configurar si la alerta puede o no cerrarse por el usuario.
+**Dismiss**. Use as opções para configurar se o alerta pode ou não ser fechado pelo usuário.
 
-* **Include closing icon to dismiss alert**. Selecciona esta opción para permitir al usuario cerrar la alerta.&#x20;
+* **Include closing icon to dismiss alert**. Selecione esta opção para permitir que o usuário feche o alerta. 
 
 {% hint style="warning" %}
-Las alertas solo pueden permanecer cerradas un máximo de 1 año. Pasado ese tiempo la alerta se vuelve a mostrar al usuario a menos que la alerta esté pausada.
+Os alertas somente podem permanecer fechados por um máximo de 1 ano. Após esse período, o alerta é novamente exibido ao usuário, exceto que o alerta seja pausado.
 {% endhint %}
 
-Indica en el desplegable **Select unit** cuánto tiempo va a transcurrir hasta que se muestre la alerta de nuevo, teniendo en cuenta que el tiempo máximo es de 12 meses.
+Indique no menu suspenso **Select unit** quanto tempo passará até o alerta ser exibido novamente, levando em consideração que o tempo máximo é de 12 meses.
 
 ![](../.gitbook/assets/Dismiss.png)
 
-* **Not include closing icono**. Selecciona esta opción para que la alerta no pueda cerrarse por el usuario. Esto implica que el usuario tendrá que consumir la alerta obligatoriamente y hacer lo que indique la alerta para que desaparezca.\
-  Por ejemplo, una alerta que indique al usuario que no tiene saldo no desaparecerá hasta que vuelva a tener saldo.
+* **Not include closing icono**. Selecione esta opção para que o alerta não possa ser fechado pelo usuário. Isto significa que o usuário deverá consumir obrigatoriamente o alerta e fazer o indicado nele para que desapareça.  
+  Por exemplo, um alerta indicando ao usuário que não tem saldo não desaparecerá até que ele tenha saldo novamente.
 
-**Title (optional)**. Título de la alerta. Es un campo opcional.&#x20;
+**Title (optional)**. Título do alerta. Este é um campo opcional. 
 
-**Description**. Descripción de la alerta. Es el texto que explica por qué se muestra la alerta al usuario.
+**Description**. Descrição do alerta. É o texto que explica porque o alerta é exibido ao usuário.
 
 {% hint style="danger" %}
-Si has configurado una alerta como _Preconfigured_ en el paso anterior ten en cuenta que esa alerta puede contener un título y contiene obligatoriamente una descripción.
+Se você configurou um alerta como *Preconfigured* no passo anterior, note que esse alerta pode conter un título e que obrigatoriamente contém uma descrição.
 
-Si en este paso 2 rellenas el campo **Title** y/o el campo **Description** entonces la información que pudiera contener la alerta se sustituye por la que indiques para esos campos.
+Se neste passo 2 você preenche o campo **Title** e/ou o campo **Description**, as informações que o alerta possa conter são substituídas pelas indicadas por você para esses campos.
 {% endhint %}
 
-**Action configuration**. Indica si la alerta, además de una descripción, lleva algún enlace de navegación:
+**Action configuration**. Indique se o alerta, além de uma descrição, inclui um link de navegação:
 
-* **No actions**. La alerta no contiene ninguna enlace.
-* **One action**. La alerta contiene un enlace. Para ese enlace configura:
-  * **Link text actio**n. En texto que se muestra en pantalla y que lleva el enlace asociado.
-  * **Action navigation to**. Selecciona **URL** para configurar una URL externa o selecciona **Preconfigured** para seleccionar una URL de las disponibles.
+* **No actions**. O alerta não contém nenhum link.
+* **One action**. O alerta contém um link. Configure para esse link: 
+  * **Link text action**. O texto que é exibido na tela e que inclui o link associado.
+  * **Action navigation to**. Selecione **URL** para configurar uma URL externa ou selecione **Preconfigured** para selecionar uma URL entre as disponíveis.
 
-**Audiences**. Selecciona una audiencia si quieres que la alerta se muestre solo a determinados usuarios que cumplan las condiciones de esa audiencia. Es un campo opcional. Si no seleccionas nada entonces la alerta se muestra a todos los usuarios que cumplan las premisas para que esa alerta se les muestre.
+**Audiences**. Selecione um público se você deseja que o alerta seja exibido apenas para determinados usuários que cumprem as condições desse público. Es un campo opcional. Se você não selecionar nada, o alerta é exibido a todos os usuários que cumprem os requisitos para que esse alerta seja mostrados a eles.
 
 ### Alert preview
 
-Utiliza la preview para hacerte una idea de cómo verá el usuario la alerta cuando le aparezca en su dispositivo.
+Use a pré-visualização para ter uma ideia sobre como o usuário verá o alerta quando este apareça em seu dispositivo.
 
-Usa el selector **LIGHT** para cambiar a modo **DARK** y viceversa y poder previsualizar como se ve la alerta cuando el usuario tiene el modo oscuro.
+Use o seletor **LIGHT** para modificar para o modo **DARK** e vice-versa, e poder pré-visualizar o alerta quando o usuário estiver no modo escuro.
 
-![](../.gitbook/assets/light\_dark.png)
+![](../.gitbook/assets/light_dark.png)
 
-Haz clic en **Continue** para pasar al siguiente paso.
+Clique em **Continue** para ir ao próximo passo.
+
