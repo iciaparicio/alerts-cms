@@ -31,7 +31,7 @@ Indica en el desplegable **Select unit** cuánto tiempo va a transcurrir hasta q
 
 ![](../.gitbook/assets/Dismiss.png)
 
-* **Not include closing icono**. Selecciona esta opción para que la alerta no pueda cerrarse por el usuario. Esto implica que el usuario tendrá que consumir la alerta obligatoriamente y hacer lo que indique la alerta para que desaparezca.\
+* **Not include closing icon**. Selecciona esta opción para que la alerta no pueda cerrarse por el usuario. Esto implica que el usuario tendrá que consumir la alerta obligatoriamente y hacer lo que indique la alerta para que desaparezca.\
   Por ejemplo, una alerta que indique al usuario que no tiene saldo no desaparecerá hasta que vuelva a tener saldo.
 
 **Title (optional)**. Título de la alerta. Es un campo opcional.&#x20;
